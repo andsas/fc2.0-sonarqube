@@ -1,0 +1,6 @@
+projectKey=go-project
+serverUrl=http://ec2-54-196-178-167.compute-1.amazonaws.com
+serverVersion=9.1.0.47736
+dashboardUrl=http://ec2-54-196-178-167.compute-1.amazonaws.com/dashboard?id=go-project
+ceTaskId=AYIz3Id5xgTEJbh8wV5Z
+ceTaskUrl=http://ec2-54-196-178-167.compute-1.amazonaws.com/api/ce/task?id=AYIz3Id5xgTEJbh8wV5Z
