@@ -18,11 +18,11 @@ jobs:
 
       - name: Run Test          
         run: go test -coverprofile=coverage.out
-        
+
       - name: Run Analisys
         uses: sonarsource/sonarqube-scan-action@master
         env:
-          SONAR_HOST: http://ec2-54-196-178-167.compute-1.amazonaws.com
+          SONAR_HOST_URL: http://ec2-54-196-178-167.compute-1.amazonaws.com
           SONAR_TOKEN: 6f9602eba126138f820973ba984993ea17cc1c3d
         with:
           args: >
