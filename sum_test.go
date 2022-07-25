@@ -26,10 +26,10 @@ func TestTimes(t *testing.T) {
 	}
 }
 
-// func TestDiv(t *testing.T) {
-// 	result := div(36, 12)
+func TestDiv(t *testing.T) {
+	result := div(36, 12)
 
-// 	if result != 3 {
-// 		t.Error("The result must be 3")
-// 	}
-// }
+	if result != 3 {
+		t.Error("The result must be 3")
+	}
+}
